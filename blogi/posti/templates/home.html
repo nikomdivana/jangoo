@@ -1,0 +1,8 @@
+<a href="{%url 'create_post'%}">turuu</a>
+<br/>
+{%for post in posts%}
+<a href="{%url 'detail_post' post.id%}"> posti:{{post.name}}</a>
+
+    
+    <br/>
+{%endfor%}
